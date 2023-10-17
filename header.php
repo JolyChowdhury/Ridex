@@ -82,6 +82,7 @@
                     <div class="social-bar d-flex justify-content-between align-items-center">
                         <div class="header-social">
                             <module type="sociala_links" template="default"/>
+                            
                             <!-- <ul class="social-nav d-flex justify-content-start align-items-center">
                                 <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></i></a></li>
