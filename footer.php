@@ -200,23 +200,16 @@ if(is_logged()){
 <script type="text/javascript" src="<?php print template_url(); ?>assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="<?php print template_url(); ?>assets/plugins/masonry/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="<?php print template_url(); ?>assets/plugins/masonry/isotope.pkgd.min.js"></script>
-<script src="<?php print template_url(); ?>assets/js/libs/anime.min.js"></script>
-<script src="<?php print template_url(); ?>assets/js/libs/particles.js"></script>
-<script src="<?php print template_url(); ?>assets/js/libs/jquery.sticky-sidebar.min.js"></script>
 <script>
     mw.lib.require('slick');
     mw.lib.require('collapse_nav');
 </script>
 <script src="<?php print template_url(); ?>assets/js/jquery-ui.js"></script>
 <script src="<?php print template_url(); ?>assets/js/bootstrap.min.js"></script>
-<script src="<?php print template_url(); ?>assets/js/mo.js"></script>
-<script src="<?php print template_url(); ?>assets/js/owl.carousel.min.js"></script>
-<script src="<?php print template_url(); ?>assets/js/fx.js"></script>
 <script src="<?php print template_url(); ?>assets/js/script.js"></script>
 <script src="<?php print template_url(); ?>assets/js/select2.js"></script>
 <script src="<?php print template_url(); ?>assets/js/slick.min.js"></script>
 <script src="<?php print template_url(); ?>assets/js/switcher.js"></script>
-<script src="<?php print template_url(); ?>assets/js/simplyCountdown.js"></script>
 <script src="<?php print template_url(); ?>assets/js/main.js"></script>
 
 <!--Pricing Ultra Layout-->

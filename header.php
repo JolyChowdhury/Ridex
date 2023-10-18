@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/fontawesome-6.min.css" type="text/css" />
     <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/all.min.css" type="text/css" />
     <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/slick.css" type="text/css" />
+    <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/slick.css">
     <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/font-awesome-4.min.css" type="text/css" />
     <link rel="stylesheet" href="<?php print template_url(); ?>assets/css/material_icons/material_icons.css" type="text/css" />
     <script type="text/javascript" src="<?php print template_url(); ?>assets/plugins/meanmenu/jquery.meanmenu.min.js"></script>
@@ -83,9 +83,6 @@
                         <div class="header-social">
                             <module type="social_links"/>
                         </div>
-                    </div>
-                    <div class="top-bar-nav">
-                        
                     </div>
                 </div>
             </div>

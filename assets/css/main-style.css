@@ -278,7 +278,7 @@ a.main-btn:hover{
   z-index: -1;
 }
 .social-bar {
-  height: 39px;
+  /* height: 39px; */
   position: relative;
   padding-right: 12px;
 }
@@ -3893,7 +3893,7 @@ ul.social-addr-menu li a{
 .ridex-body .header-top-bar .header-social ul.socials {
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: center!important;
 }
 .ridex-body .header-top-bar .header-social ul.socials li a i{
   margin-right: 25px;
@@ -3992,7 +3992,7 @@ ul.social-addr-menu li a{
 .ridex-body .logo-middle-area .menu ul li {
   margin-right: 15px;
 }
-.ridex-body .logo-middle-area .menu {
+.ridex-body .logo-middle-area .menu ul{
   display: flex;
   justify-content: center;
   align-items: center!important;

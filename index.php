@@ -27,7 +27,7 @@
 
 <?php }else{?>
 
-<module type="globallayouts" template="hero-slider/skin-1">
+<!-- <module type="globallayouts" template="hero-slider/skin-1"> -->
 <!-- <module type="layouts" template="hero-slider/hero-slider"> -->
 <module type="layouts" template="service/service">
 <module type="layouts" template="top-catagory/top-catagory">
