@@ -1,11 +1,11 @@
 <?php if ($footer == 'true'): ?>
-    <!-- Footer Section Start -->
-        <footer id="footer" class="footer edit" rel="global" field="ridex_footer_content_1">
+     <!-- Footer Section Start -->
+        <footer id="footer" class="footer edit" rel="global" field="ridex_footer_content_2">
                 <div class="container">
                     <div class="footer-top">
                         <div class="row">
                             <!-- Footer Column 1 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-3">
                                 <div class="footer-widget widget-1">
                                     <div class="widget-title">
                                         <h2>store information</h2>
@@ -28,31 +28,33 @@
                             </div>
 
                             <!-- Footer Column 2 -->
-                            <div class="col-lg-4">
+                            <div class="footer_col footer_col_3 col-lg-3">
                                 <div class="footer-widget widget-2">
                                     <div class="widget-title">
                                         <h2>our company</h2>
                                     </div>
-                                    <div class="widget-content">
-                                        <ul class="footer-menu">
-                                            <li><a href="javascript:void(0)">personal info</a></li>
-                                            <li><a href="javascript:void(0)">address</a></li>
-                                            <li><a href="javascript:void(0)">orders</a></li>
-                                            <li><a href="javascript:void(0)">credit slips</a></li>
-                                            <li><a href="javascript:void(0)">wishlist</a></li>
-                                        </ul>
+                                    <div class="footer_nav" id="footermenu">
+                                        <div class="footer-preloader show"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="footer-widget">
+                                    <h4 class="footer-link-header">Footer Menu</h4>
+                                    <div class="footer-link" id="footermenu">
+                                        <div class="footer-preloader show"></div>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Footer Column 3 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-3">
                                 <div class="footer-widget widget-3">
                                     <div class="widget-title">
                                         <h2>your account</h2>
                                     </div>
                                     <div class="widget-content">
-                                        <ul class="footer-menu">
+                                        <ul class="footer_nav">
                                             <li><a href="javascript:void(0)">personal info</a></li>
                                             <li><a href="javascript:void(0)">address</a></li>
                                             <li><a href="javascript:void(0)">orders</a></li>
@@ -71,7 +73,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="fotter-bottom-wrapper d-flex justify-content-between align-items-center flex-wrap">
-                                    <p>© 2022, Ridex Sectioned Shopify Theme</p>
+                                <p class="copyright-text">Shopsystem & Template by <a href="https://www.droptienda.com/" target="_blank">Droptienda®</a></p>
                                     <img src="<?php print template_url();?>assets/image/payment-gateways.webp" alt="payment-gateways">
                                 </div>
                             </div>
@@ -80,7 +82,7 @@
                 </div>
         </footer>
     <!-- Footer Section End -->
-<?php endif; ?>
+    <?php endif; ?>
 </div>
 
 <?php
@@ -88,7 +90,9 @@ if(is_logged()){
     print chat_footer();
 }
 ?>
-<button id="to-top" class="btn" style="display: block;"></button>
+<button id="to-top" class="btn" style="display: block;">
+<span class="material-icons">keyboard_arrow_up</span>
+</button>
 
 <script>
     jQuery(window).on('load', function() {

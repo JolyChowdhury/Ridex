@@ -461,11 +461,11 @@ position: 99
     $prev = prev_content_V2($data['id']);
 ?>
 
-<div class="edit inner-page-empty " field="anipix-shop-inner-v2-top" rel="content">
+<div class="edit inner-page-empty " field="ridex-shop-inner-v2-top" rel="content">
 </div>
 
 <!-- Breadcrumb Section Start -->
-<section class="bredcrumb" id="bredcrumb" style="background: url(<?php print template_url() ; ?>assets/image/bg-breadcrumbs.jpg)">
+<section class="bredcrumb" id="bredcrumb" style="background: url(<?php print template_url() ; ?>assets/image/main-slider-1.jpg)">
         <div class="container">
             <module type="breadcrumb"/>
         </div>

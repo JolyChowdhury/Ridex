@@ -75,21 +75,17 @@
 <header id="header" class="header" style="display:<?php print $headerShowCss; ?>;">
 
     <!-- Header Top Bar -->
-    <div class="header-top-bar"> 
+    <div class="header-top-bar edit" rel="module" field="header_top_bar"> 
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12 bg-dark">
-                    <div class="social-bar d-flex justify-content-between align-items-center">
+                    <div class="social-bar">
                         <div class="header-social">
-                            <module type="sociala_links" template="default"/>
-                            <!-- <ul class="social-nav d-flex justify-content-start align-items-center">
-                                <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></i></a></li>
-                                <li><a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                                <li><a href="https://snapchat.com" target="_blank"><i class="fa-brands fa-snapchat"></i></a></li>
-                                <li><a href="https://vimeo.com" target="_blank"><i class="fa-brands fa-vimeo-v"></i></a></li>
-                            </ul> -->
+                            <module type="social_links"/>
                         </div>
+                    </div>
+                    <div class="top-bar-nav">
+                        
                     </div>
                 </div>
             </div>

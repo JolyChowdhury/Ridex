@@ -9,7 +9,7 @@ position: 16
 ?>
 
 <!-- Brand Section Start -->
-<section id="brand" class="brand">
+<section id="brand" class="brand edit" rel="module" field="brand-layout">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

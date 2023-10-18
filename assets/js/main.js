@@ -81,10 +81,25 @@ $document.ready(function () {
 	$(document).ready(function(){
 		$('.ridex-body .home-feature').addClass('service-wrapper');
 		$('.ridex-body .post_block_media_wrapper').addClass('blog-item-single');
+		$('.ridex-body .testimonial-wrapper .slick-track').addClass('test');
 	});
 
 
-
+	$document.ready(function () {
+        var ttopButton = $("#to-top");
+        ttopButton.hide().on("click", function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+        $window.scroll(function () {
+            if ($window.scrollTop() === 0) {
+                ttopButton.hide();
+            } else {
+                ttopButton.show();
+            }
+        });
+    });
 	/*------------------------------------------
 	   Header Loto Area
 	------------------------------------------*/

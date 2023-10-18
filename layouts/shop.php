@@ -49,7 +49,7 @@ position: 4
 
 
 
-<div class="edit shop-main-wrapper" rel="content" field="marcando_shop_content">
+<div class="edit shop-main-wrapper" rel="content" field="ridex_shop_content">
 
 
 <?php
@@ -72,11 +72,6 @@ if($is_edited){
 
 <?php } ?>
 </div>
-
-
-
-
-
 
 
 
