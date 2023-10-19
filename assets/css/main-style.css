@@ -278,7 +278,7 @@ a.main-btn:hover{
   z-index: -1;
 }
 .social-bar {
-  /* height: 39px; */
+  height: 39px;
   position: relative;
   padding-right: 12px;
 }
@@ -421,7 +421,9 @@ ul.top-nav li.has-children > a::after {
   margin-right: auto;
   text-align: center;
 }
-
+/* ul.dropdown-menu.menu_2.first-child.child-0.menu-item-id-22.menu-item-parent-2{
+  display: none;
+} */
 ul.main-nav > li{
   margin-right: 15px;
 }
@@ -4199,9 +4201,9 @@ body.member-menu-icon-show .header-member-user .user-item-icon,body.member-menu-
   color: var(--primary-color);
   font-weight: 400;
 }
-.ridex-body .blog-sample .blog-content-wrapper .blog-sample-title a h4{
+.ridex-body .blog-section .blog-posts .blog-sample .blog-sample-title a h4{
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
   line-height: 25px;
   font-size: 1.2rem;
   letter-spacing: .06rem;
@@ -4209,7 +4211,7 @@ body.member-menu-icon-show .header-member-user .user-item-icon,body.member-menu-
   text-transform: uppercase;
   font-weight: 400;
 }
-.ridex-body .blog-sample .blog-content-wrapper .blog-sample-title p {
+.ridex-body .blog-section .blog-posts .blog-sample p.post-exerpt {
   font-size: 16px;
   letter-spacing: .5px;
   line-height: 20px;
@@ -4535,7 +4537,7 @@ button#to-top {
 }
 .ridex-body .featured-product-content .product-content h2.dealing-product-title a {
   color: #222222;
-  line-height: 18px;
+  line-height: 45px;
   font-family: var(--primary-font);
   text-transform: capitalize;
 }
