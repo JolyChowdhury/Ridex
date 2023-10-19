@@ -421,9 +421,9 @@ ul.top-nav li.has-children > a::after {
   margin-right: auto;
   text-align: center;
 }
-/* ul.dropdown-menu.menu_2.first-child.child-0.menu-item-id-22.menu-item-parent-2{
+ul.dropdown-menu.menu_2.first-child.child-0.menu-item-id-22.menu-item-parent-2{
   display: none;
-} */
+}
 ul.main-nav > li{
   margin-right: 15px;
 }
@@ -4283,6 +4283,10 @@ button#to-top {
   color: #fff;
   border: 0;
 }
+/* ---------------shop page--------------------- */
+.ridex-body .shop-main-wrapper .breadcumb-for-shop-inner .breadcrumb-bg-div img {
+  display: none;
+}
 /* -----------------about us page------------------------- */
 
 .ridex-body .au-right .element-layout-image ,
@@ -4447,11 +4451,21 @@ button#to-top {
     color: #222222;
     font-weight: 400;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 25px;
     font-family: var(--primary-font);
     text-transform: capitalize;
     margin: 15px 0;
   }
+  .ridex-body .anipix-products .shop-products .liked-product-content .product-sample-content a h5 {
+    color: #222222;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: color 150ms;
+    -o-transition: color 150ms;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+}
   .ridex-body .product-tax-text {
     color: #888888;
     margin-bottom: 10px;
@@ -4516,7 +4530,7 @@ button#to-top {
     background: var(--secondary-color);
     color: #000;
 }
-  /* .slick-prev:before, .slick-next:before {
+  .slick-prev:before, .slick-next:before {
     position: absolute;
     top: 50px;
     font-size: 25px;
@@ -4528,7 +4542,7 @@ button#to-top {
     color: #ffffff;
     text-align: center;
     cursor: pointer;
-  } */
+  }
 .ridex-body .featured-product-content .product-content {
   text-align: left!important;
 }
@@ -4616,6 +4630,13 @@ transition: all .5s;
 .product-action-btn span.mw-price-item-value {
   color: #2DB7FF!important;
 }
+.ridex-body .anipix-products .shop-products .liked-product-content h6.product-sample-price {
+  font-size: 1.25rem;
+  color: #2DB7FF;
+}
+.ridex-body .section-heading h2 {
+  margin-bottom: 30px;
+}
 .ridex-body .mw-price-item .product-tax-text {
   color: #787878;
 }
@@ -4647,7 +4668,14 @@ transition: all .5s;
 .test{
   display: flex!important;
 }
-
+.blog-articles__article .article-card-content .article-card__footer .r_more {
+  background: transparent;
+  border: 0;
+  color: #787878;
+  padding: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #787878;
+}
 /* blog inner page */
 .ridex-body .blog-inner-page .breadcrumb{
   border-top: 1px solid #ccc;
@@ -4730,5 +4758,4 @@ transition: all .5s;
   -moz-transition: all .5s;
   -ms-transition: all .5s;
   -o-transition: all .5s;
-}
 }

@@ -12,17 +12,37 @@ description: Blog 2
 
 ?>
 <?php include template_dir() . "header.php"; ?>
-
-<div class="edit blog-main-wrapper" rel="content" field="ride_content">
-    <!-- <div class="blog-item-single">
-        <module type="posts" template="default"/>
+<!-- Breadcrumb Section Start -->
+<section class="bredcrumb edit" id="bredcrumb" field="anipix-breadcrumb" rel="module">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <div class="row mt-3">
+                <div class="col-lg-12">
+                    <module type="breadcrumb"/>
+                </div>
+            </div>
         </div>
-    </div> -->
-    <section class="featured-product py-5">
-    <module type="single_product_inner"/>
-    </section>
-</div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
 
-
+<!-- Blog Section Start -->
+<section id="blog-section" class="blog-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="ridex-sidebar">
+                    <?php include TEMPLATE_DIR . 'layouts' . DS . "blog_sidebar.php" ?>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="blog-item-single">
+                    <module type="posts" template="skin-3"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section End -->
 
 <?php include template_dir() . "footer.php"; ?>
